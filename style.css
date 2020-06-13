@@ -16,8 +16,8 @@ body {
 
 .loader {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 5%;
     border-radius: 50%;
     background: linear-gradient(45deg, transparent, transparent 40%, #76f012);
@@ -53,8 +53,8 @@ body {
 
 .loader__center {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     animation: animate 3s linear infinite;
 }
 
@@ -65,7 +65,7 @@ body {
     left: 6px;
     right: 6px;
     bottom: 6px;
-    background: rgba(0, 0, 0, 0.9);
+    background: url(../CSS3-Glowing-Gradient-Loader-Ring-Animation-Effects/0.jpg) center rgba(0, 0, 0, 0.9);
     border-radius: 50%;
     z-index: 1000;
 }
